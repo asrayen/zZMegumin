@@ -1,0 +1,13 @@
+{
+    // "terminal.integrated.automationProfile.windows": {},
+    "[python]": {
+        "editor.defaultFormatter": "eeyore.yapf",
+        "editor.formatOnSave": true,
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "C_Cpp.default.compilerPath": "E:\\mingw64\\bin\\g++.exe",
+    "files.associations": {
+        "random": "cpp"
+    },
+}
