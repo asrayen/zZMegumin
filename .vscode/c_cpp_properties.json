@@ -3,14 +3,16 @@
         {
             "name": "Win32",
             "includePath": [
-                "${workspaceRoot}",
+                "${workspaceRoot}/**",
+                "E:/OpenSSL-Win64/include/**",
                 "E:/mingw64/include/**",
                 "E:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++",
                 "E:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32",
-                "E:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++\backward",
+                "E:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward",
                 "E:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include",
                 "E:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed",
-                "E:/mingw64/include"
+                "E:/mingw64/include",
+                "E:\\OpenSSL-Win64\\lib"
             ],
             "defines": [
                 "_DEBUG",
@@ -27,10 +29,12 @@
                     "E:/mingw64/include/**",
                     "E:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++",
                     "E:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/x86_64-w64-mingw32",
-                    "E:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++\backward",
+                    "E:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include/c++/backward",
                     "E:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include",
                     "E:/mingw64/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed",
-                    "E:/mingw64/include"
+                    "E:/mingw64/include",
+                    "E:/OpenSSL-Win64/include",
+                    "E:\\OpenSSL-Win64\\lib"
                 ]
             }
         }

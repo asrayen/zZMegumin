@@ -34,19 +34,18 @@
             "projectPath": "${workspaceFolder}/MyC#.csproj"
         },
         {
-            "name": "Python: Pyramid 应用程序",
-            // "type": "python",
+            "name": "Python3",
+            "type": "python",
             "request": "launch",
-            "console": "integratedTerminal",
-            "program": "${workspaceFolder}",
-            "cwd": "${fileDirname}",
-            // "module": "pyramid.scripts.pserve",
-            "args": [
-                "${workspaceFolder}\\development.ini"
-            ],
-            // "pyramid": true,
-            // "jinja": true,
-            "justMyCode": true
+            "stopOnEntry": false,
+            "python": "E:\\py38", //python3的安装路径！
+            "program": "${file}",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "envFile": "${workspaceFolder}/.env",
+            "debugOptions": [
+                "RedirectOutput"
+            ]
         },
         {
             "name": "gcc.exe - 生成和调试活动文件",

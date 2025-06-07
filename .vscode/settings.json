@@ -1,13 +1,41 @@
 {
     // "terminal.integrated.automationProfile.windows": {},
-    "[python]": {
-        "editor.defaultFormatter": "eeyore.yapf",
-        "editor.formatOnSave": true,
-    },
+    "git.ignoreLegacyWarning": true,
+    "workbench.iconTheme": "vscode-icons", //启用vscode图标
+    "python.*pythonPath*": "C:\\Users\\15879\\AppData\\Local\\Microsoft\\WindowsApps\\python3.11.exe", //
+    //## python3路径，注意看我起的名字叫pythonPath，这个名字需要在环境变量里也配置一下！！！
+    "editor.lineHeight": 26, // 编辑器中的行高
+    "editor.fontSize": 18, // 编辑器中的字体
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": true, //编辑器自动保存
+    "python.linting.flake8Enabled": true, //启用flake8，首先需要pip3 install falke8
+    "python.formatting.provider": "yapf",
+    "path-intellisense.autoSlashAfterDirectory": true,
+    "path-intellisense.extensionOnImport": true,
+    "workbench.colorTheme": "Monokai", // 配色方案
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django",
+        "--disable-msg=C0111",
+    ],
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.fontWeight": "500",
+    "python.defaultInterpreterPath": "E:\\py38\\python.exe",
     "python.analysis.typeCheckingMode": "basic",
     "python.analysis.autoImportCompletions": true,
     "C_Cpp.default.compilerPath": "E:\\mingw64\\bin\\g++.exe",
     "files.associations": {
-        "random": "cpp"
+        "random": "cpp",
+        "ostream": "cpp",
+        "string_view": "cpp",
+        "rsa.h": "c",
+        "stdio.h": "c"
     },
+    "editor.guides.indentation": false,
+    // cph配置文件
+    "cph.general.defaultLanguage": "cpp",
+    "cph.general.defaultLanguageTemplateFileLocation": "E:\\verity\\template.cpp", // 这是你的模板文件路径
+    "cph.general.firstTime": false,
+    "cph.language.cpp.SubmissionCompiler": "GNU G++14 6.4.0", // 使用 C++14 标准
+    "cph.language.cpp.Args": "-std=c++14 -O2", // -O2
 }

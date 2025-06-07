@@ -11,7 +11,15 @@
 				"-g",
 				"${file}",
 				"-o",
-				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+				"${fileDirname}\\${fileBasenameNoExtension}.exe",
+				"-I",
+				"E:/OpenSSL-Win64/include", // OpenSSL头文件路径
+				"-L",
+				"E:/OpenSSL-Win64/lib", // OpenSSL库文件路径
+				"-l",
+				"ssl",
+				"-l",
+				"crypto"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
